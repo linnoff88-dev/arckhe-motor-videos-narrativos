@@ -26,7 +26,7 @@
     ],
     "color_arc": "sand_to_red_to_gold",
     "cta_style": "soft_invitation",
-    "variation_guard": "Não repetir a mesma combinação de arquétipo, gramática visual, voz e música dos trabalhos recentes."
+    "variation_guard": "Nêo repetir a mesma combinaçêo de arquétipo, gramática visual, voz e música dos trabalhos recentes."
   },
   "audio": {
     "voice_profile": "epic_grave",
@@ -57,9 +57,9 @@
         "B-roll cinematográfico",
         "Objetos em mesa"
       ],
-      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composição que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cinematográfico.",
+      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composiçêo que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cinematográfico.",
       "camera_move": "slow pull-back",
-      "motion_notes": "Movimento contínuo, elegante e subordinado à informação; evitar zoom automático em todos os planos.",
+      "motion_notes": "Movimento contínuo, elegante e subordinado à informaçêo; evitar zoom automático em todos os planos.",
       "transition": "ink_reveal",
       "on_screen_text": "Exibir um número ou contraste sobre Por que as cidades antigas surgiam perto dos rios; no máximo 8 palavras por entrada, alto contraste e margem segura.",
       "audio": {
@@ -82,9 +82,9 @@
         "B-roll cinematográfico",
         "Tipografia cinética"
       ],
-      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composição que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cinematográfico.",
+      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composiçêo que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cinematográfico.",
       "camera_move": "rack focus from foreground to background",
-      "motion_notes": "Movimento contínuo, elegante e subordinado à informação; evitar zoom automático em todos os planos.",
+      "motion_notes": "Movimento contínuo, elegante e subordinado à informaçêo; evitar zoom automático em todos os planos.",
       "transition": "light_lift",
       "on_screen_text": "Exibir um número ou contraste sobre Por que as cidades antigas surgiam perto dos rios; no máximo 8 palavras por entrada, alto contraste e margem segura.",
       "audio": {
@@ -107,9 +107,9 @@
         "B-roll cinematográfico",
         "Objetos em mesa"
       ],
-      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composição que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cinematográfico.",
+      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composiçêo que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cinematográfico.",
       "camera_move": "short handheld emphasis",
-      "motion_notes": "Movimento contínuo, elegante e subordinado à informação; evitar zoom automático em todos os planos.",
+      "motion_notes": "Movimento contínuo, elegante e subordinado à informaçêo; evitar zoom automático em todos os planos.",
       "transition": "soft_dissolve",
       "on_screen_text": "Exibir um título curto sincronizado com a fala sobre Por que as cidades antigas surgiam perto dos rios; no máximo 8 palavras por entrada, alto contraste e margem segura.",
       "audio": {
@@ -132,9 +132,9 @@
         "B-roll cinematográfico",
         "Tipografia cinética"
       ],
-      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composição que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cinematográfico.",
+      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composiçêo que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cinematográfico.",
       "camera_move": "right-to-left pan",
-      "motion_notes": "Movimento contínuo, elegante e subordinado à informação; evitar zoom automático em todos os planos.",
+      "motion_notes": "Movimento contínuo, elegante e subordinado à informaçêo; evitar zoom automático em todos os planos.",
       "transition": "map_wipe",
       "on_screen_text": "Exibir um número ou contraste sobre Por que as cidades antigas surgiam perto dos rios; no máximo 8 palavras por entrada, alto contraste e margem segura.",
       "audio": {
@@ -152,16 +152,16 @@
         "end": 30.0,
         "label": "00:24–00:30"
       },
-      "narrative_goal": "Fechar com uma ação única e coerente com o objetivo do vídeo.",
+      "narrative_goal": "Fechar com uma açêo única e coerente com o objetivo do vídeo.",
       "visual_grammar": [
         "B-roll cinematográfico",
         "Objetos em mesa"
       ],
-      "visual_direction": "Apresentar a ação final relacionada a Por que as cidades antigas surgiam perto dos rios em composição limpa, com espaço negativo para texto e um hold de leitura. Gramática: B-roll cinematográfico.",
+      "visual_direction": "Apresentar a açêo final relacionada a Por que as cidades antigas surgiam perto dos rios em composiçêo limpa, com espaço negativo para texto e um hold de leitura. Gramática: B-roll cinematográfico.",
       "camera_move": "parallax drift",
-      "motion_notes": "Movimento contínuo, elegante e subordinado à informação; evitar zoom automático em todos os planos.",
+      "motion_notes": "Movimento contínuo, elegante e subordinado à informaçêo; evitar zoom automático em todos os planos.",
       "transition": "match_cut",
-      "on_screen_text": "Exibir uma ação direta sobre Por que as cidades antigas surgiam perto dos rios; no máximo 8 palavras por entrada, alto contraste e margem segura.",
+      "on_screen_text": "Exibir uma açêo direta sobre Por que as cidades antigas surgiam perto dos rios; no máximo 8 palavras por entrada, alto contraste e margem segura.",
       "audio": {
         "narration": "lead",
         "music": "below_voice_with_ducking",
@@ -184,9 +184,9 @@
     "verify_final_with_ffprobe": true
   },
   "next_inputs_needed": [
-    "roteiro original ou autorização para o motor escrever o roteiro",
-    "objetivo final e CTA, se diferente do padrão",
+    "roteiro original ou autorizaçêo para o motor escrever o roteiro",
+    "objetivo final e CTA, se diferente do padrêo",
     "referências de produto, pessoa ou marca quando a fidelidade visual for necessária",
-    "assets locais ou autorização para gerar imagens e vídeos complementares"
+    "assets locais ou autorizaçêo para gerar imagens e vídeos complementares"
   ]
 }

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Motor de direção para vídeos narrativos em pt-BR.
+"""Motor de direçêo para vídeos narrativos em pt-BR.
 
-Gera um plano de produção e um pacote de prompts. Ele não copia a referência:
+Gera um plano de produçêo e um pacote de prompts. Ele nêo copia a referência:
 aprende princípios e escolhe combinações novas usando um histórico local.
 """
 from __future__ import annotations
@@ -100,26 +100,26 @@ def camera_sequence(cameras: list[str], rng: random.Random, count: int) -> list[
 
 def beat_goal(beat_id: str, topic: str, archetype: str) -> str:
     goals = {
-        "hook": f"Abrir uma tensão concreta sobre {topic} e prometer uma resposta sem entregar tudo.",
+        "hook": f"Abrir uma tensêo concreta sobre {topic} e prometer uma resposta sem entregar tudo.",
         "origin": f"Apresentar o ponto de partida de {topic} e por que ele importa.",
-        "rise": f"Mostrar a mudança, mecanismo ou expansão que fez {topic} ganhar peso.",
-        "crisis": f"Introduzir a contradição, custo, risco ou virada escondida em {topic}.",
+        "rise": f"Mostrar a mudança, mecanismo ou expansêo que fez {topic} ganhar peso.",
+        "crisis": f"Introduzir a contradiçêo, custo, risco ou virada escondida em {topic}.",
         "legacy": f"Conectar {topic} a uma consequência atual, humana ou cultural.",
-        "cta": "Fechar com uma ação única e coerente com o objetivo do vídeo.",
+        "cta": "Fechar com uma açêo única e coerente com o objetivo do vídeo.",
         "myth": f"Nomear a crença comum sobre {topic} sem ridicularizar quem acredita nela.",
         "evidence": f"Apresentar a evidência ou mecanismo que muda a leitura de {topic}.",
-        "turn": f"Entregar a revelação que reorganiza o que o espectador acabou de ouvir.",
-        "meaning": f"Explicar por que a revelação sobre {topic} é relevante hoje.",
+        "turn": f"Entregar a revelaçêo que reorganiza o que o espectador acabou de ouvir.",
+        "meaning": f"Explicar por que a revelaçêo sobre {topic} é relevante hoje.",
         "problem": f"Mostrar o problema real que {topic} ajuda a entender.",
         "mechanism": f"Visualizar passo a passo como o mecanismo de {topic} funciona.",
-        "proof": f"Dar um caso, número ou demonstração que sustenta a explicação.",
-        "solution": f"Apresentar a solução, decisão ou aprendizado prático ligado a {topic}.",
+        "proof": f"Dar um caso, número ou demonstraçêo que sustenta a explicaçêo.",
+        "solution": f"Apresentar a soluçêo, decisêo ou aprendizado prático ligado a {topic}.",
         "consequence": f"Começar pela consequência mais surpreendente relacionada a {topic}.",
         "clue": f"Voltar a uma pista visual ou verbal que explica a consequência.",
         "present": f"Trazer a consequência para o presente e tornar a ideia acionável.",
         "destination": f"Mostrar o destino, resultado ou pergunta final antes de voltar ao início.",
         "place_one": f"Estabelecer o primeiro lugar ou momento necessário para entender {topic}.",
-        "place_two": f"Mudar de espaço ou tempo para revelar uma conexão em {topic}.",
+        "place_two": f"Mudar de espaço ou tempo para revelar uma conexêo em {topic}.",
         "place_three": f"Chegar ao terceiro ponto, onde a história de {topic} ganha significado.",
         "connection": f"Unir os pontos e explicar o fio comum de {topic}.",
         "object_hook": f"Usar um objeto ligado a {topic} como testemunha silenciosa da história.",
@@ -132,16 +132,16 @@ def beat_goal(beat_id: str, topic: str, archetype: str) -> str:
 def visual_direction(grammar_ids: list[str], beat_id: str, topic: str) -> str:
     grammar = grammar_ids[0]
     if beat_id == "hook":
-        return f"Começar com uma imagem ou símbolo de alto contraste ligado a {topic}; esconder parte da informação e revelar um detalhe no primeiro segundo. Gramática: {grammar}."
+        return f"Começar com uma imagem ou símbolo de alto contraste ligado a {topic}; esconder parte da informaçêo e revelar um detalhe no primeiro segundo. Gramática: {grammar}."
     if beat_id == "cta":
-        return f"Apresentar a ação final relacionada a {topic} em composição limpa, com espaço negativo para texto e um hold de leitura. Gramática: {grammar}."
-    return f"Mostrar {topic} em uma composição que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: {grammar}."
+        return f"Apresentar a açêo final relacionada a {topic} em composiçêo limpa, com espaço negativo para texto e um hold de leitura. Gramática: {grammar}."
+    return f"Mostrar {topic} em uma composiçêo que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: {grammar}."
 
 
 def text_direction(beat_id: str, topic: str, rng: random.Random) -> str:
     variants = {
         "hook": ["uma pergunta curta", "uma data ou número", "uma consequência em 3–6 palavras"],
-        "cta": ["uma ação direta", "uma pergunta para comentário", "um convite curto"],
+        "cta": ["uma açêo direta", "uma pergunta para comentário", "um convite curto"],
     }
     choices = variants.get(beat_id, ["nome, lugar, data ou palavra-chave", "um número ou contraste", "um título curto sincronizado com a fala"])
     return f"Exibir {rng.choice(choices)} sobre {topic}; no máximo 8 palavras por entrada, alto contraste e margem segura."
@@ -188,7 +188,7 @@ def build_plan(args: argparse.Namespace, config: dict[str, Any], history: dict[s
             "visual_grammar": grammar,
             "visual_direction": visual_direction(grammar, beat_id, args.tema),
             "camera_move": moves[i],
-            "motion_notes": "Movimento contínuo, elegante e subordinado à informação; evitar zoom automático em todos os planos.",
+            "motion_notes": "Movimento contínuo, elegante e subordinado à informaçêo; evitar zoom automático em todos os planos.",
             "transition": transitions[i % len(transitions)],
             "on_screen_text": text_direction(beat_id, args.tema, rng),
             "audio": {
@@ -228,7 +228,7 @@ def build_plan(args: argparse.Namespace, config: dict[str, Any], history: dict[s
             "supporting_visual_grammars": [g["id"] for g in secondary],
             "color_arc": color["id"],
             "cta_style": cta_style,
-            "variation_guard": "Não repetir a mesma combinação de arquétipo, gramática visual, voz e música dos trabalhos recentes.",
+            "variation_guard": "Nêo repetir a mesma combinaçêo de arquétipo, gramática visual, voz e música dos trabalhos recentes.",
         },
         "audio": {
             "voice_profile": voice["id"],
@@ -248,10 +248,10 @@ def build_plan(args: argparse.Namespace, config: dict[str, Any], history: dict[s
         "beats": beats,
         "production_rules": config["rendering_rules"],
         "next_inputs_needed": [
-            "roteiro original ou autorização para o motor escrever o roteiro",
-            "objetivo final e CTA, se diferente do padrão",
+            "roteiro original ou autorizaçêo para o motor escrever o roteiro",
+            "objetivo final e CTA, se diferente do padrêo",
             "referências de produto, pessoa ou marca quando a fidelidade visual for necessária",
-            "assets locais ou autorização para gerar imagens e vídeos complementares",
+            "assets locais ou autorizaçêo para gerar imagens e vídeos complementares",
         ],
     }
 
@@ -270,13 +270,13 @@ def markdown_prompt_pack(plan: dict[str, Any]) -> str:
         f"- **Curva de cor:** {creative['color_arc']}",
         f"- **Estilo de CTA:** {creative['cta_style']}",
         "",
-        "## Direção da narração",
+        "## Direçêo da narraçêo",
         "",
-        f"**Prompt de direção em inglês:** {audio['narration_direction_english']}",
+        f"**Prompt de direçêo em inglês:** {audio['narration_direction_english']}",
         "",
-        "> O texto falado deve permanecer em português brasileiro. A instrução de direção fica separada do texto falado e a narração real deve ser medida antes de travar os planos.",
+        "> O texto falado deve permanecer em português brasileiro. A instruçêo de direçêo fica separada do texto falado e a narraçêo real deve ser medida antes de travar os planos.",
         "",
-        "## Direção da trilha",
+        "## Direçêo da trilha",
         "",
         f"**Prompt de música em inglês:** {audio['music_prompt_english']}",
         "",
@@ -289,21 +289,21 @@ def markdown_prompt_pack(plan: dict[str, Any]) -> str:
             f"- **Objetivo narrativo:** {beat['narrative_goal']}",
             f"- **Visual:** {beat['visual_direction']}",
             f"- **Movimento de câmera:** {beat['camera_move']}",
-            f"- **Transição:** {beat['transition']}",
+            f"- **Transiçêo:** {beat['transition']}",
             f"- **Texto na tela:** {beat['on_screen_text']}",
-            f"- **Som:** narração na frente; música abaixo; SFX: {beat['audio']['sfx']}",
+            f"- **Som:** narraçêo na frente; música abaixo; SFX: {beat['audio']['sfx']}",
             f"- **Texto falado:** `{beat['script_placeholder']}`",
             "",
         ])
     lines.extend([
         "## Checklist de montagem",
         "",
-        "1. Gerar ou aprovar a narração; medir duração e, se necessário, timestamps por palavra.",
-        "2. Recalcular as janelas dos shots com a duração real da narração.",
+        "1. Gerar ou aprovar a narraçêo; medir duraçêo e, se necessário, timestamps por palavra.",
+        "2. Recalcular as janelas dos shots com a duraçêo real da narraçêo.",
         "3. Gerar ou selecionar visuais sem repetir a mesma gramática em sequência.",
-        "4. Aplicar movimentos com intenção, não como preset em todas as imagens.",
+        "4. Aplicar movimentos com intençêo, nêo como preset em todas as imagens.",
         "5. Montar trilha, ducking, efeitos, títulos e legendas.",
-        "6. Verificar ritmo, legibilidade, proporção, áudio e integridade com ffprobe.",
+        "6. Verificar ritmo, legibilidade, proporçêo, áudio e integridade com ffprobe.",
     ])
     return "\n".join(lines) + "\n"
 
@@ -311,21 +311,21 @@ def markdown_prompt_pack(plan: dict[str, Any]) -> str:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Gera um plano de vídeo narrativo variado.")
     parser.add_argument("--tema", required=True, help="Assunto do vídeo")
-    parser.add_argument("--duracao", type=float, default=60.0, help="Duração alvo em segundos")
+    parser.add_argument("--duracao", type=float, default=60.0, help="Duraçêo alvo em segundos")
     parser.add_argument("--formato", choices=["9:16", "1:1", "16:9"], default="9:16")
     parser.add_argument("--objetivo", default="educar e envolver", help="Objetivo editorial ou comercial")
     parser.add_argument("--publico", default="público geral interessado no assunto", help="Público-alvo")
-    parser.add_argument("--cta", default="Saiba mais", help="Chamada para ação")
-    parser.add_argument("--seed", type=int, default=None, help="Seed para repetir a mesma variação")
+    parser.add_argument("--cta", default="Saiba mais", help="Chamada para açêo")
+    parser.add_argument("--seed", type=int, default=None, help="Seed para repetir a mesma variaçêo")
     parser.add_argument("--voz", default=None, help="Forçar um voice profile do config")
-    parser.add_argument("--out", default=None, help="Pasta de saída; por padrão, jobs/<id>")
+    parser.add_argument("--out", default=None, help="Pasta de saída; por padrêo, jobs/<id>")
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
     if args.duracao < 20 or args.duracao > 600:
-        raise SystemExit("A duração deve ficar entre 20 e 600 segundos.")
+        raise SystemExit("A duraçêo deve ficar entre 20 e 600 segundos.")
     config = load_json(CONFIG_PATH, {})
     history = load_json(HISTORY_PATH, {"jobs": []})
     plan = build_plan(args, config, history)

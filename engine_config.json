@@ -71,21 +71,21 @@
     },
     {
       "id": "myth_fact_reveal",
-      "label": "Mito → evidência → revelação",
+      "label": "Mito → evidência → revelaçêo",
       "beats": ["hook", "myth", "evidence", "turn", "meaning", "cta"],
-      "best_for": ["curiosidades", "ciência", "história", "desmistificação"]
+      "best_for": ["curiosidades", "ciência", "história", "desmistificaçêo"]
     },
     {
       "id": "problem_mechanism_solution",
-      "label": "Problema → mecanismo → solução",
+      "label": "Problema → mecanismo → soluçêo",
       "beats": ["hook", "problem", "mechanism", "proof", "solution", "cta"],
-      "best_for": ["educação", "negócios", "tecnologia", "produto"]
+      "best_for": ["educaçêo", "negócios", "tecnologia", "produto"]
     },
     {
       "id": "reverse_chronology",
       "label": "Consequência → retorno às causas → presente",
       "beats": ["consequence", "clue", "origin", "turn", "present", "cta"],
-      "best_for": ["casos", "histórias de impacto", "investigação", "documentário"]
+      "best_for": ["casos", "histórias de impacto", "investigaçêo", "documentário"]
     },
     {
       "id": "journey_three_places",
@@ -117,7 +117,7 @@
       "id": "archive_document",
       "label": "Documento e arquivo",
       "tools": ["document close-up", "highlight box", "page turn", "ink reveal"],
-      "best_for": ["investigação", "história", "ciência", "negócios"]
+      "best_for": ["investigaçêo", "história", "ciência", "negócios"]
     },
     {
       "id": "object_tabletop",
