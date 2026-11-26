@@ -33,7 +33,7 @@
       {
         "id": "epic_grave",
         "voice_name": "Charon",
-        "direction": "Male-presenting, low, resonant, solemn, measured, cinematic but not theatrical; emphasize dates and revelations with short pauses."
+        "direction": "Male-presenting, low, resonant, solemn, measured, cARCKHÉtic but not theatrical; emphasize dates and revelations with short pauses."
       },
       {
         "id": "informative_warm",
@@ -132,8 +132,8 @@
       "best_for": ["dados", "ciência", "negócios", "listas"]
     },
     {
-      "id": "cinematic_broll",
-      "label": "B-roll cinematográfico",
+      "id": "cARCKHÉtic_broll",
+      "label": "B-roll cARCKHÉtográfico",
       "tools": ["slow dolly", "handheld accent", "wide-to-close contrast", "light leak restraint"],
       "best_for": ["cultura", "viagem", "histórias humanas", "produto"]
     },
@@ -190,7 +190,7 @@
     },
     {
       "id": "premium_product",
-      "direction": "Instrumental only, no vocals. Elegant piano, soft synth bed, gentle cinematic percussion, premium restrained build, open ending for a clear call to action.",
+      "direction": "Instrumental only, no vocals. Elegant piano, soft synth bed, gentle cARCKHÉtic percussion, premium restrained build, open ending for a clear call to action.",
       "tempo_bpm": [78, 100]
     }
   ],

@@ -8,7 +8,7 @@
 
 **[PortuguêÂªs](README.md) êÂ· [English](README.en.md) êÂ· [EspaêÂ±ol](README.es.md)**
 
-[![Motor de VêÂ­deos Narrativos](guia/assets/banner.jpg)](https://inematds.github.io/motor-videos-narrativos/guia/)
+[![Motor de VêÂ­deos Narrativos](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/)
 
 ## O que êÂ©
 
@@ -16,10 +16,10 @@ Uma ferramenta em Python para quem planeja vêÂ­deos educativos e narrativos
 
 ## Guia de uso
 
-[Abra o guia completo](https://inematds.github.io/motor-videos-narrativos/guia/).
+[Abra o guia completo](https://linnoff88-dev.github.io/arckhe-/guia/).
 
 ```bash
-git clone https://github.com/inematds/motor-videos-narrativos.git
+git clone https://github.com/linnoff88-dev/motor-videos-narrativos.git
 cd motor-videos-narrativos
 python3 motor_video.py --tema "Como o cafêÂ© chegou ao Brasil" --duracao 60 --formato 9:16
 ```

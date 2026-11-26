@@ -19,7 +19,7 @@
     "thesis_placeholder": "Uma frase que explique por que Por que as cidades antigas surgiam perto dos rios importa.",
     "narrative_archetype": "object_witness",
     "narrative_label": "Um objeto como testemunha",
-    "visual_grammar": "cinematic_broll",
+    "visual_grammar": "cARCKHÉtic_broll",
     "supporting_visual_grammars": [
       "object_tabletop",
       "motion_typography"
@@ -31,11 +31,11 @@
   "audio": {
     "voice_profile": "epic_grave",
     "voice_name": "Charon",
-    "narration_direction_english": "Brazilian Portuguese, natural regional pronunciation, clear documentary storytelling, emotionally controlled and intelligible. Male-presenting, low, resonant, solemn, measured, cinematic but not theatrical; emphasize dates and revelations with short pauses. Write and perform only the Portuguese spoken script after the colon. Use short natural pauses after dates, numbers and revelations; do not sound rushed.",
+    "narration_direction_english": "Brazilian Portuguese, natural regional pronunciation, clear documentary storytelling, emotionally controlled and intelligible. Male-presenting, low, resonant, solemn, measured, cARCKHÉtic but not theatrical; emphasize dates and revelations with short pauses. Write and perform only the Portuguese spoken script after the colon. Use short natural pauses after dates, numbers and revelations; do not sound rushed.",
     "spoken_language": "Portuguese (Brazil)",
     "language_code": "pt-BR",
     "music_profile": "premium_product",
-    "music_prompt_english": "Instrumental only, no vocals. Elegant piano, soft synth bed, gentle cinematic percussion, premium restrained build, open ending for a clear call to action. Tempo target: 78–100 BPM. Duration: approximately 30.0 seconds.",
+    "music_prompt_english": "Instrumental only, no vocals. Elegant piano, soft synth bed, gentle cARCKHÉtic percussion, premium restrained build, open ending for a clear call to action. Tempo target: 78–100 BPM. Duration: approximately 30.0 seconds.",
     "mix_rules": [
       "Narration stays intelligible and in front.",
       "Duck music by approximately 8 dB under speech, then adjust by ear.",
@@ -54,10 +54,10 @@
       },
       "narrative_goal": "Usar um objeto ligado a Por que as cidades antigas surgiam perto dos rios como testemunha silenciosa da história.",
       "visual_grammar": [
-        "B-roll cinematográfico",
+        "B-roll cARCKHÉtográfico",
         "Objetos em mesa"
       ],
-      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composiçêo que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cinematográfico.",
+      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composiçêo que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cARCKHÉtográfico.",
       "camera_move": "slow pull-back",
       "motion_notes": "Movimento contínuo, elegante e subordinado à informaçêo; evitar zoom automático em todos os planos.",
       "transition": "ink_reveal",
@@ -79,10 +79,10 @@
       },
       "narrative_goal": "Reconstituir o passado do objeto sem transformar o vídeo em catálogo.",
       "visual_grammar": [
-        "B-roll cinematográfico",
+        "B-roll cARCKHÉtográfico",
         "Tipografia cinética"
       ],
-      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composiçêo que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cinematográfico.",
+      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composiçêo que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cARCKHÉtográfico.",
       "camera_move": "rack focus from foreground to background",
       "motion_notes": "Movimento contínuo, elegante e subordinado à informaçêo; evitar zoom automático em todos os planos.",
       "transition": "light_lift",
@@ -104,10 +104,10 @@
       },
       "narrative_goal": "Mostrar quem usou, guardou ou transformou o objeto relacionado a Por que as cidades antigas surgiam perto dos rios.",
       "visual_grammar": [
-        "B-roll cinematográfico",
+        "B-roll cARCKHÉtográfico",
         "Objetos em mesa"
       ],
-      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composiçêo que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cinematográfico.",
+      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composiçêo que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cARCKHÉtográfico.",
       "camera_move": "short handheld emphasis",
       "motion_notes": "Movimento contínuo, elegante e subordinado à informaçêo; evitar zoom automático em todos os planos.",
       "transition": "soft_dissolve",
@@ -129,10 +129,10 @@
       },
       "narrative_goal": "Conectar Por que as cidades antigas surgiam perto dos rios a uma consequência atual, humana ou cultural.",
       "visual_grammar": [
-        "B-roll cinematográfico",
+        "B-roll cARCKHÉtográfico",
         "Tipografia cinética"
       ],
-      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composiçêo que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cinematográfico.",
+      "visual_direction": "Mostrar Por que as cidades antigas surgiam perto dos rios em uma composiçêo que torne visível a ideia narrada; alternar escala e detalhe. Gramática visual dominante: B-roll cARCKHÉtográfico.",
       "camera_move": "right-to-left pan",
       "motion_notes": "Movimento contínuo, elegante e subordinado à informaçêo; evitar zoom automático em todos os planos.",
       "transition": "map_wipe",
@@ -154,10 +154,10 @@
       },
       "narrative_goal": "Fechar com uma açêo única e coerente com o objetivo do vídeo.",
       "visual_grammar": [
-        "B-roll cinematográfico",
+        "B-roll cARCKHÉtográfico",
         "Objetos em mesa"
       ],
-      "visual_direction": "Apresentar a açêo final relacionada a Por que as cidades antigas surgiam perto dos rios em composiçêo limpa, com espaço negativo para texto e um hold de leitura. Gramática: B-roll cinematográfico.",
+      "visual_direction": "Apresentar a açêo final relacionada a Por que as cidades antigas surgiam perto dos rios em composiçêo limpa, com espaço negativo para texto e um hold de leitura. Gramática: B-roll cARCKHÉtográfico.",
       "camera_move": "parallax drift",
       "motion_notes": "Movimento contínuo, elegante e subordinado à informaçêo; evitar zoom automático em todos os planos.",
       "transition": "match_cut",

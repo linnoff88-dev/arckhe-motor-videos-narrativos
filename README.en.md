@@ -2,7 +2,7 @@
 
 **[Português](README.md) · [English](README.en.md) · [Español](README.es.md)**
 
-[![Narrative Video Engine](guia/assets/banner-en.jpg)](https://inematds.github.io/motor-videos-narrativos/guia/en/)
+[![Narrative Video Engine](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/en/)
 
 ## What it is
 
@@ -10,10 +10,10 @@ A Python tool for planning educational and narrative videos. Starting from a top
 
 ## User guide
 
-[Open the complete guide](https://inematds.github.io/motor-videos-narrativos/guia/en/).
+[Open the complete guide](https://linnoff88-dev.github.io/arckhe-/guia/en/).
 
 ```bash
-git clone https://github.com/inematds/motor-videos-narrativos.git
+git clone https://github.com/linnoff88-dev/motor-videos-narrativos.git
 cd motor-videos-narrativos
 python3 motor_video.py --tema "Como o café chegou ao Brasil" --duracao 60 --formato 9:16
 ```

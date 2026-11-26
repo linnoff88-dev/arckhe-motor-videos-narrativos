@@ -3,7 +3,7 @@
 - **Formato:** 9:16 / 1080x1920 / 60.0 s
 - **Arquétipo:** Consequência → retorno às causas → presente (`reverse_chronology`)
 - **Gramática visual principal:** collage_mixed_media
-- **Gramáticas de apoio:** motion_typography, cinematic_broll
+- **Gramáticas de apoio:** motion_typography, cARCKHÉtic_broll
 - **Curva de cor:** dark_to_blue
 - **Estilo de CTA:** soft_invitation
 

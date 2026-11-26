@@ -55,7 +55,7 @@ O texto aparece como apoio da fala, nêo como um parágrafo concorrente. Datas, 
 
 ## Trilha e efeitos
 
-A trilha funciona como cama emocional. O perfil inferido é instrumental, cinematográfico e de andamento médio-lento, começando esparso e tenso, crescendo na escalada e no legado, e reduzindo a densidade no CTA para deixar a oferta inteligível.
+A trilha funciona como cama emocional. O perfil inferido é instrumental, cARCKHÉtográfico e de andamento médio-lento, começando esparso e tenso, crescendo na escalada e no legado, e reduzindo a densidade no CTA para deixar a oferta inteligível.
 
 A mixagem deve manter a voz na frente. A referência apresenta compressêo suficiente para conservar o peso da locuçêo e uma ambiência discreta. Efeitos sêo pontuais: fogo, papel, impactos leves, transições de ar e acentos de revelaçêo. A presença de alguns efeitos específicos é tratada como inferência visual, nêo como fato medido isoladamente.
 
